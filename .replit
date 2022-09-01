@@ -1,0 +1,8 @@
+language = "bash"
+run = ["bash", "main.sh"]
+entrypoint = "main.sh"
+
+[nix]
+
+[nix.channel]
+channel = "stable-22_05"
